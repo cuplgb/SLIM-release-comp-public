@@ -5,20 +5,20 @@
  (including 3-rd party prerequisites) necessary to demonstrate and use
  algorithms developed by SLIM's researchers. SLIM's software release is
  organized in two repositories:
-### 1.1 SLIM-release-comp repository - this repository
- Repository at [SLIM-release-comp]
- (https://github.com/SINBADconsortium/SLIM-release-comp) containing
+### 1.1 SLIM-release-comp-public repository - this repository
+ Repository at [SLIM-release-comp-public]
+ (https://github.com/SINBADconsortium/SLIM-release-comp-public) containing
  extra 3rd-part software for multi-user installation - not needed for
  some applications from repository listed below. The installation of
  software from this repository may be shared by multiple users and may
  require lengthy installation.
-### 1.2 SLIM-release-apps repository
- Repository at [SLIM-release-apps]
- (https://github.com/SINBADconsortium/SLIM-release-apps) containing
+### 1.2 SLIM-release-apps-public repository
+ Repository at [SLIM-release-apps-public]
+ (https://github.com/SINBADconsortium/SLIM-release-apps-public) containing
  core of SLIM's software, i.e. all applications, algorithms, tools, and
  utilities. The software in this repository requires minimal
  installation, but some of the applications depend on installation of
- SLIM-release-comp listed above.
+ SLIM-release-comp-public listed above.
 ## 2 COPYRIGHT
  You may use this code only under the conditions and terms of the
  license contained in the file LICENSE provided with this source code.
@@ -31,7 +31,7 @@
  including Parallel Computing Toolbox (check file MATLAB-details in
  this repository for more information).
  Included in this repository are:
-### 3.1 3rd-party software packages in SLIM-release-comp repository
+### 3.1 3rd-party software packages in SLIM-release-comp-public repository
  - [Bison parser generator 2.3] (http://www.gnu.org/software/bison/)  
  - [Binutils binary tools 2.22] (http://www.gnu.org/software/binutils/)
   
@@ -47,7 +47,7 @@
  - [FFTW 3.3.1] (http://www.fftw.org/)  
  - [NFFT 3.3.0] (https://www-user.tu-chemnitz.de/~potts/nfft/)  
  
-### 3.2 SLIM's software packages in SLIM-release-comp
+### 3.2 SLIM's software packages in SLIM-release-comp-public
  - SLIM version of [CurveLab 2.1.2] (http://www.curvelet.org/). License
  from Caltech is required and available for SINBAD consortium members
  within the terms of SINBAD agreement. Academic users must register
@@ -61,8 +61,8 @@
  please, let us know. See SUPPORT section at the end for contact
  information.
 ## 5 SHELL ENVIRONMENT
- The path to home directory of installation of SLIM-release-comp will
- be required be users of SLIM-release-apps to define SLIM_COMP
+ The path to home directory of installation of SLIM-release-comp-public will
+ be required be users of SLIM-release-apps-public to define SLIM_COMP
  environment variable in appropriate environment.* scripts.
 ## 6 SUPPORT
  You may contact SLIM's developers of SINBAD software via issue tracker for this repository. We do not have resources to acctively support public version of our software. However, we will try to answert the questions as much as possible.

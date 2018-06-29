@@ -18,16 +18,16 @@
  the prerequisites are missing or the included web site for specific
  instructions suitable for your operating system.
  
- Note! This document covers only installation of SLIM-release-comp part
- of software release. For notes on installation of SLIM-release-apps
- refer to INSTALLATION file in SLIM-release-apps repository.
+ Note! This document covers only installation of SLIM-release-comp-public part
+ of software release. For notes on installation of SLIM-release-apps-public
+ refer to INSTALLATION file in SLIM-release-apps-public repository.
 ## 2 DOWNLOADING
  In terminal, change directory to the location where you want to
  install the software and execute the following git command:
  
- 	git clone git@github.com:SINBADconsortium/SLIM-release-comp.git
+ 	git clone git@github.com:SINBADconsortium/SLIM-release-comp-public.git
  
- and the cloned software will be in SLIM-release-comp sub-directory.
+ and the cloned software will be in SLIM-release-comp-public sub-directory.
 ## 3 GIT BRANCHES
  SLIM is using master branch to develop/add software to repository. To
  avoid using the software that is not complete or fully tested, you
@@ -40,7 +40,7 @@
  installation.
 ### 4.1 Importing shell environment
  Open terminal window, change directory to the home of
- SLIM-release-comp and do either of the following:
+ SLIM-release-comp-public and do either of the following:
 #### 4.1.1 in bash-like shell execute
  	. environment.sh
 #### 4.1.2 in csh-like shell execute
@@ -86,8 +86,8 @@
 ### 5.1 Location
  Pick the appropriate location for software. Make sure that the
  location is accessible by those users from the system on which they
- intend to run the applications. The users of SLIM-release-apps will
- need the path to home of SLIM-release-comp to define SLIM_COMP
+ intend to run the applications. The users of SLIM-release-apps-public will
+ need the path to home of SLIM-release-comp-public to define SLIM_COMP
  variable in their environment.* scripts.
 ### 5.2 One-step installation
  You may install all software provided in the release with single
@@ -199,9 +199,9 @@
  To install CurveLab 2.1.2 execute the following in the terminal
  
  	install_CurveLab
-### 5.4 Make note of the path to home of SLIM-release-comp installation
- The users of SLIM-release-apps will need the path to home of
- SLIM-release-comp to define SLIM_COMP variable in their environment.*
+### 5.4 Make note of the path to home of SLIM-release-comp-public installation
+ The users of SLIM-release-apps-public will need the path to home of
+ SLIM-release-comp-public to define SLIM_COMP variable in their environment.*
  scripts.
 ## 6 SUPPORT
  You may contact developers of SINBAD software by means of:
