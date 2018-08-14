@@ -204,11 +204,4 @@
  SLIM-release-comp-public to define SLIM_COMP variable in their environment.*
  scripts.
 ## 6 SUPPORT
- You may contact developers of SINBAD software by means of:
-### 6.1 Mailing list
- Subscribe to [SINBAD software mailing list]
- (http://slim.eos.ubc.ca/mailman/listinfo/slimsoft)
- and e-mail your question to the mailing list.
-### 6.2 Direct mail
- Contact [SLIM administrator](mailto:softadmin@slimweb.eos.ubc.ca)
- with any questions related to the SINBAD software release.
+ You may contact SLIM's developers of SINBAD software via issue tracker for this repository. We do not have resources to acctively support public version of our software. However, we will try to answert the questions as much as possible.
